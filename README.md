@@ -100,6 +100,3 @@ This project is setup with prettier, husky, and lint-staged. That means that
 when you commit, a git commit hook will automatically format the files you're
 changing and run the tests relevant to those files. Neat right?
 
-## LICENSE
-
-MIT
