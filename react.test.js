@@ -1,7 +1,7 @@
 import '@testing-library/jest-dom/extend-expect'
 import * as React from 'react'
 import ReactDOM from 'react-dom'
-import {getQueriesForElement} from '@testing-library/dom'
+import {getQueriesForElement, screen} from '@testing-library/dom'
 import userEvent from '@testing-library/user-event'
 
 function Counter() {
@@ -29,8 +29,8 @@ function render(ui) {
 }
 
 test('renders a counter', () => {
-  const {getByText, cleanup} = render(<Counter />)
-  const counter = getByText('0')
+  const {cleanup} = render(<Counter />)
+  const counter = screen.getByText('0')
   userEvent.click(counter)
   expect(counter).toHaveTextContent('1')
 

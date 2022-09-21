@@ -15,11 +15,8 @@
 
 <hr />
 
-Anything you can render to the DOM, you can test with DOM Testing Library.
-
-This repo is a bunch of simple examples of using DOM Testing Library to test a
-`Counter` component in various frameworks. If your framework of choice is not
-listed here, please add it!
+This branch is to cater the version difference, it is not necessary to use
+'getQueriesForElement'.
 
 ## 🌲 Branching
 
