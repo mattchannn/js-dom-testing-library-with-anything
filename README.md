@@ -21,7 +21,12 @@ This repo is a bunch of simple examples of using DOM Testing Library to test a
 `Counter` component in various frameworks. If your framework of choice is not
 listed here, please add it!
 
-## Contributing
+## 🌲 Branching
+
+- master
+- testing-library-dom-v8
+
+## 🧧 Contributing
 
 > NOTE: In the interest of full disclosure, this repository will be used by me
 > to create a course on testing for which I will be paid.
@@ -82,7 +87,7 @@ test('renders a counter', () => {
 
 If you can make your example resemble that, I would be thrilled :)
 
-### IMPORTANT Notes
+### ⚠️ IMPORTANT Notes
 
 I want to keep things as simple as possible, but I also want to be true to
 what's typical for a given framework. If your framework strongly encourages the
@@ -99,4 +104,3 @@ authoring your component in a slightly non-typical way.
 This project is setup with prettier, husky, and lint-staged. That means that
 when you commit, a git commit hook will automatically format the files you're
 changing and run the tests relevant to those files. Neat right?
-
